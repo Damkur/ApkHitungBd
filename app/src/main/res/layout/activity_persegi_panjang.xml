@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+
+    <!-- Judul di tengah -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HITUNG LUAS PERSEGI PANJANG"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Gambar Rumus (misalnya L = p * l) -->
+    <TextView
+        android:id="@+id/formulaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rumus Luas: L = p \u00D7 l"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Inputan untuk Panjang -->
+    <EditText
+        android:id="@+id/inputPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan panjang"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Inputan untuk Lebar -->
+    <EditText
+        android:id="@+id/inputLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan lebar"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Tombol Hitung -->
+    <Button
+        android:id="@+id/buttonHitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Teks untuk Menampilkan Hasil -->
+    <TextView
+        android:id="@+id/textHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil: "
+        android:textSize="18sp"
+        android:textColor="#333333"/>
+
+</LinearLayout>

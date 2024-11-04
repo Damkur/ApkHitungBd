@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Judul Aplikasi -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR BANGUN DATAR"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Tombol Persegi -->
+    <Button
+        android:id="@+id/buttonPersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persegi"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Tombol Persegi Panjang -->
+    <Button
+        android:id="@+id/buttonPersegiPanjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Persegi Panjang"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Tombol Segitiga -->
+    <Button
+        android:id="@+id/buttonSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segitiga"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Tombol Lingkaran -->
+    <Button
+        android:id="@+id/buttonLingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lingkaran"
+        android:padding="12dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>

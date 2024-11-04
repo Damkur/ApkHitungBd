@@ -1,0 +1,65 @@
+<!-- res/layout/activity_segitiga.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul untuk aktivitas segitiga -->
+    <TextView
+        android:id="@+id/titleSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Segitiga"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Gambar rumus segitiga -->
+    <ImageView
+        android:id="@+id/formulaImageSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/luas_segitiga"
+        android:contentDescription="Formula Segitiga"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Input untuk alas segitiga -->
+    <EditText
+        android:id="@+id/inputBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alas (a)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Input untuk tinggi segitiga -->
+    <EditText
+        android:id="@+id/inputHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tinggi (t)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Tombol untuk menghitung luas segitiga -->
+    <Button
+        android:id="@+id/buttonHitungSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Tampilan hasil luas segitiga -->
+    <TextView
+        android:id="@+id/hasilSegitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil: "
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

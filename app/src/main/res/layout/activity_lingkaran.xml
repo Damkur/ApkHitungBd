@@ -1,0 +1,58 @@
+<!-- res/layout/activity_lingkaran.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul untuk aktivitas lingkaran -->
+    <TextView
+        android:id="@+id/titleLingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Lingkaran"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Gambar rumus lingkaran -->
+    <ImageView
+        android:id="@+id/formulaImageLingkaran"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/luas_lingkaran"
+        android:contentDescription="Formula Lingkaran"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"/>
+
+
+    <!-- Input untuk jari-jari lingkaran -->
+    <EditText
+        android:id="@+id/inputRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Jari-jari (r)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Tombol untuk menghitung luas lingkaran -->
+    <Button
+        android:id="@+id/buttonHitungLingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Tampilan hasil luas lingkaran -->
+    <TextView
+        android:id="@+id/hasilLingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil: "
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
